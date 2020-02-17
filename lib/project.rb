@@ -6,5 +6,9 @@ class Project
     @title = title
   end
   
+  def add_backer(backer)
+    @backers << backer
+  end
+  
   
 end
